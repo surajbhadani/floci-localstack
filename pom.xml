@@ -20,7 +20,7 @@
         <apicurio.version>2.6.13.Final</apicurio.version>
         <everit.json.schema.version>1.14.6</everit.json.schema.version>
         <wire.version>7.1.2</wire.version>
-        <aws.sdk.version>2.57.7</aws.sdk.version>
+        <aws.sdk.version>2.57.8</aws.sdk.version>
     </properties>
 
     <dependencyManagement>
@@ -785,7 +785,7 @@
                     <dependency>
                         <groupId>com.puppycrawl.tools</groupId>
                         <artifactId>checkstyle</artifactId>
-                        <version>14.3.0</version>
+                        <version>14.4.0</version>
                     </dependency>
                 </dependencies>
                 <configuration>
@@ -804,7 +804,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
-                <version>3.6.3</version>
+                <version>3.7.0</version>
                 <executions>
                     <execution>
                         <id>enforce-java</id>
